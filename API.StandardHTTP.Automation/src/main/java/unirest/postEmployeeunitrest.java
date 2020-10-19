@@ -9,7 +9,7 @@ public class postEmployeeunitrest {
 
 	public void postEmployee() throws UnirestException {
 
-		HttpResponse<JsonNode> jsongetresponse = Unirest.post("http://dummy.restapiexample.com/api/v1/create").body("{\"name\":\"demeoqqne\",\"salary\":\"1222223\",\"age\":\"43\"}").asJson();
+		HttpResponse<JsonNode> jsongetresponse = Unirest.post("http://dummy.restapiexample.com/api/v1/create").body("{\"name\":\"demewwwqne\",\"salary\":\"1222223\",\"age\":\"43\"}").asJson();
 
 		System.out.println("status code is" + jsongetresponse.getStatus());
 		System.out.println("status Message is" + jsongetresponse.getStatusText());
